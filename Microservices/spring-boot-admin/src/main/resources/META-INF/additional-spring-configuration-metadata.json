@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.boot.admin.client.instance.metadata.user.name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.boot.admin.client.instance.metadata.user.name'"
+  },
+  {
+    "name": "spring.boot.admin.client.instance.metadata.user.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.boot.admin.client.instance.metadata.user.password'"
+  }
+]}

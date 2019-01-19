@@ -1,0 +1,8 @@
+spring.application.name=Boot-Admin
+server.port=8093
+
+#management.security.enabled=false
+spring.security.user.name=admin
+spring.security.user.password=admin
+
+#spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
