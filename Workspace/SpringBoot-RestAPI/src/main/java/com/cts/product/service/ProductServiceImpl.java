@@ -16,7 +16,7 @@ public class ProductServiceImpl implements ProductService {
 
 	public void persist(Product prod) {
 		prodDao.save(prod);
-		
+
 	}
 
 	public List<Product> listAll() {
@@ -37,8 +37,6 @@ public class ProductServiceImpl implements ProductService {
 	public void deleteProduct(String productId) {
 		prodDao.deleteById(productId);
 	}
-	
-	
 	
 
 }
