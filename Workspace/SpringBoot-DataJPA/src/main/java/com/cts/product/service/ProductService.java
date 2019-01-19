@@ -10,6 +10,6 @@ public interface ProductService {
 	public Product findById(String prodId);
 	public List<Product> listAll();
 	
-	List<Product> readProductByProductName(String productName);
+	List<Product> readProductByProductLike(String productName);
 
 }

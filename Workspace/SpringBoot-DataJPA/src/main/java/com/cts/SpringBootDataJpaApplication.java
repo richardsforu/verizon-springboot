@@ -34,7 +34,9 @@ public class SpringBootDataJpaApplication {
 		System.out.println("---------------------------->");
 		
 		
-		List<Product> cprods=ps.readProductByProductName("Mouse");
+		
+		
+		List<Product> cprods=ps.readProductByProductLike("%a%");
 		
 		for(Product prod:cprods) {
 			System.out.println(prod.getProductId());

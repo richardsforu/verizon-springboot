@@ -28,9 +28,9 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public List<Product> readProductByProductName(String productName) {
+	public List<Product> readProductByProductLike(String productName) {
 		// TODO Auto-generated method stub
-		return prodDao.readProductByProductName(productName);
+		return prodDao.readProductByProductNameIsLike(productName);
 	}
 
 }
